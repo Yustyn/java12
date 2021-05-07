@@ -20,7 +20,7 @@ $button.addEventListener('click', () => {
         $passw.style.border = '2px solid red'
         True = false
     }
-    if ($passw.value == $confpassw.value) {
+    if ($passw.value === $confpassw.value) {
         $confpassw.style.border = '2px solid green'
     } else {
         $confpassw.style.border = '2px solid red'
